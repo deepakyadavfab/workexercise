@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-blue-500 items-center justify-center relative flex -translate-x-[10%]  translate-y-[0%]">
+    <div
+        class="box  h-[700px] w-[400px] bg-white items-center justify-center  flex translate-x-[50%]  translate-y-[10%] rounded-lg">
+
+        <div class="navbar w-full flex items-center justify-between rounded-t-lg h-6 insert-x-0 top-1 absolute ">
+            <h3 class="px-2">9:41</h3>
+            <div class="icon h-full w-28 flex gap-1 items center justify-center   rounded-tr-lg ">
+                <div class="img h-full w-6  bg-cover overflow-hidden">
+                    <img src="./cellular.jpg" alt="">
+                </div>
+                <div class="img h-full w-6  bg-cover overflow-hidden">
+                    <img src="./wifi.jpg" alt="">
+                </div>
+                <div class="img h-full w-6 bg-cover overflow-hidden">
+                    <img src="./full-battery.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <h1 class="text-2xl absolute top-[10%] font-bold mb-4">What are your goals?</h1>
+        <form class="flex flex-col gap-2 space-y-2">
+            <div class="bg-slate-200 shadow-lg shadow-black-500/50 border-1 rounded-lg  w-[350px] h-6 ">
+                <label class="flex items-center">
+                    <input type="checkbox" name="goals" value="Weight Loss" class="form-checkbox">
+                    <span class="ml-12">Weight Loss</span>
+                </label>
+            </div>
+           
+            <div class="bg-slate-200 shadow-lg shadow-black-500/50 border-1 rounded-lg  w-[350px] h-6 ">
+                <label class="flex items-center">
+                    <input type="checkbox" name="goals" value="Weight Loss" class="form-checkbox">
+                    <span class="ml-12">Muscle Gain</span>
+                </label>
+            </div>
+
+            <div class="bg-slate-200 shadow-lg shadow-black-500/50 border-1 rounded-lg  w-[350px] h-6 ">
+                <label class="flex items-center">
+                    <input type="checkbox" name="goals" value="Weight Loss" class="form-checkbox">
+                    <span class="ml-12">Flexibility and Mobility</span>
+                </label>
+            </div>
+
+            <div class="bg-slate-200 shadow-lg shadow-black-500/50 border-1 rounded-lg  w-[350px] h-6 ">
+                <label class="flex items-center">
+                    <input type="checkbox" name="goals" value="Weight Loss" class="form-checkbox">
+                    <span class="ml-12">General Fitness</span>
+                </label>
+            </div>
+
+            <div class="bg-slate-200 shadow-lg shadow-black-500/50 border-1 rounded-lg  w-[350px] h-6 ">
+                <label class="flex items-center">
+                    <input type="checkbox" name="goals" value="Event -Specific training" class="form-checkbox">
+                    <span class="ml-12">Event -Specific training</span>
+                </label>
+            </div>
+
+            <div class="bg-slate-200 shadow-lg shadow-black-500/50 border-1 rounded-lg  w-[350px] h-6 ">
+                <label class="flex items-center">
+                    <input type="checkbox" name="goals" value="Mindfulness and Mental health" class="form-checkbox">
+                    <span class="ml-12">Mindfulness and Mental health</span>
+                </label>
+            </div>
+
+            <button id="confirmButton" type="submit" class="bg-gradient-to-r from-cyan-200 to-cyan-800  absolute top-[80%] text-white w-[90%] left-2 h-8 rounded">
+                Confirm
+            </button>
+        </form>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
